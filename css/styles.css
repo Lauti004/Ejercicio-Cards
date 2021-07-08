@@ -1,39 +1,73 @@
 body {
     padding: 4em;
     margin: 0%;
-    background-color: #0c0c1c;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
 }
 
 .flex-container {
     display: flex;
     width: 1200px;
-    background-color:#23243e;
+    background-color:hsl(244, 38%, 16%);
     flex-direction: column;
-    padding: 3em;
+    padding: 5em;
     border-radius: 1%;
+    position: relative;
 }
 
 .flex-container h1 {
-    text-align: justify;
+    display: inline-block;
     font-size: 2em;
-    font-family: sans-serif;
-    color: white;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    width: 40%;
 }
 
 .flex-container p {
+    width: 40%;
+    display: inline-block;
     font-family: sans-serif;
-    color: #444457;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .flex-container ul {
-    color: white;
+    display: inline;
+    color: hsla(0, 0%, 100%, 0.6);
     list-style-type: none;
+    width: 40%;
 }
 
-.photo img{
+.photo {
+    display: inline;
     float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.photo img {
+    float: right;
+    width: 591px;
+    filter: hue-rotate(270deg);
 }
 
 .flex-container h1 span {
-    color: #7a429d;
+    font-weight: 800;
+    color: rgb(170, 92, 219);
+}
+
+.flex-container ul {
+    font-size: 30px;
+}
+
+.ul-1 {
+    color: white;
+}
+
+.ul-2 {
+    color: white;
+}
+
+.ul-3 {
+    color: white;
 }
