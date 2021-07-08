@@ -1,0 +1,39 @@
+body {
+    padding: 4em;
+    margin: 0%;
+    background-color: #0c0c1c;
+}
+
+.flex-container {
+    display: flex;
+    width: 1200px;
+    background-color:#23243e;
+    flex-direction: column;
+    padding: 3em;
+    border-radius: 1%;
+}
+
+.flex-container h1 {
+    text-align: justify;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+}
+
+.flex-container p {
+    font-family: sans-serif;
+    color: #444457;
+}
+
+.flex-container ul {
+    color: white;
+    list-style-type: none;
+}
+
+.photo img{
+    float: right;
+}
+
+.flex-container h1 span {
+    color: #7a429d;
+}
